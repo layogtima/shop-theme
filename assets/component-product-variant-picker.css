@@ -150,3 +150,42 @@ variant-selects {
   }
 }
 /* End custom styles for Swatch display type */
+
+.keyswitches {
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.keyswitch {
+  display: flex;
+  align-items: center;
+  background-color: #2c2f33;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.keyswitch img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.keyswitch-info {
+  flex-grow: 1;
+}
+
+.keyswitch-name {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.keyswitch-type {
+  font-size: 0.9em;
+  color: #b9bbbe;
+}
+
+.favorite {
+  font-size: 1.5em;
+  color: gold;
+}

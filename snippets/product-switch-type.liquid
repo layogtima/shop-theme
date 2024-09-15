@@ -1,0 +1,107 @@
+{% comment %}
+  Renders product switch type options
+
+  Accepts:
+  - product: {Object} product object.
+  - option: {Object} current product_option object.
+  - block: {Object} block object.
+  - picker_type: {String} type of picker to display
+
+  Usage:
+  {% render 'product-switch-type',
+    product: product,
+    option: option,
+    block: block,
+    picker_type: picker_type
+  %}
+{% endcomment %}
+
+<div class="switch-type-options">
+  {%- for value in option.values -%}
+    {%- liquid
+      assign option_disabled = true
+      if value.available
+        assign option_disabled = false
+      endif
+    -%}
+
+    {%- capture input_id -%}
+      {{ section.id }}-{{ option.position }}-{{ forloop.index0 -}}
+    {%- endcapture -%}
+
+    {%- capture input_name -%}
+      {{ option.name }}-{{ option.position }}
+    {%- endcapture -%}
+
+    {%- capture input_dataset -%}
+      data-product-url="{{ value.product_url }}"
+      data-option-value-id="{{ value.id }}"
+    {%- endcapture -%}
+
+    <div class="switch-type-option {% if value.selected %}selected{% endif %} {% if option_disabled %}disabled{% endif %}">
+      <input
+        type="radio"
+        id="{{ input_id }}"
+        name="{{ input_name | escape }}"
+        value="{{ value | escape }}"
+        form="{{ product_form_id }}"
+        {% if value.selected %}
+          checked
+        {% endif %}
+        {% if option_disabled %}
+          class="disabled"
+        {% endif %}
+        {{ input_dataset }}
+      >
+      <label for="{{ input_id }}">
+        {% if value == 'Gateron Blue' %}
+          <img src="https://cdn.shopify.com/s/files/1/0883/1352/8619/files/gateron-blue.png?v=1726427684" alt="{{ value }}">
+        {% elsif value == 'Gateron Red' %}
+          <img src="https://cdn.shopify.com/s/files/1/0883/1352/8619/files/gateron-red.png?v=1726427604" alt="{{ value }}">
+        {% endif %}
+        <div class="switch-type-info">
+          <span class="switch-type-name">{{ value }}</span>
+          <span class="switch-type-description">
+          {% if value == 'Gateron Blue' %}
+            Clicky!  
+          {% elsif value == 'Gateron Red' %}
+            Quiet
+          {% endif %}
+          </span>
+        </div>
+      </label>
+    </div>
+  {%- endfor -%}
+</div>
+
+<style>
+  .switch-type-options {
+    display: flex;
+    flex-direction: row;
+  }
+  .switch-type-option {}
+  .switch-type-option input {}
+  .switch-type-option.selected {}
+  .switch-type-option.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .switch-type-option img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    float: left;
+  }
+  .switch-type-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+  }
+  .switch-type-name {
+    font-weight: bold;
+  }
+  .switch-type-description {
+    font-size: 0.9em;
+    color: #7f8c8d;
+  }
+</style>

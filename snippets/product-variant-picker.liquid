@@ -42,6 +42,16 @@
             picker_type: picker_type
           %}
         </fieldset>
+      {%- elsif option.name == 'Switch Type' -%}
+        <fieldset class="js product-form__input product-form__input--pill">
+          <legend class="form__label">{{ option.name }}</legend>
+          {% render 'product-switch-type',
+              product: product,
+              option: option,
+              block: block,
+              picker_type: picker_type
+            %}
+        </fieldset>
       {%- elsif picker_type == 'button' -%}
         <fieldset class="js product-form__input product-form__input--pill">
           <legend class="form__label">{{ option.name }}</legend>

@@ -10,6 +10,13 @@
 {% endcomment %}
 
 <ul class="list-unstyled list-social{% if class %} {{ class}}{% endif %}" role="list">
+  {%- if settings.social_discord_link != blank -%} <!-- Add this block -->
+    <li class="list-social__item">
+      <a href="{{ settings.social_discord_link }}" class="link list-social__link" aria-label="Discord">
+        <i class="fab fa-discord"></i>
+      </a>
+    </li>
+  {%- endif -%}
   {%- if settings.social_facebook_link != blank -%}
     <li class="list-social__item">
       <a href="{{ settings.social_facebook_link }}" class="link list-social__link" aria-label="Facebook">
@@ -70,13 +77,6 @@
     <li class="list-social__item">
       <a href="{{ settings.social_vimeo_link }}" class="link list-social__link" aria-label="Vimeo">
         <i class="fab fa-vimeo"></i>
-      </a>
-    </li>
-  {%- endif -%}
-  {%- if settings.social_discord_link != blank -%} <!-- Add this block -->
-    <li class="list-social__item">
-      <a href="{{ settings.social_discord_link }}" class="link list-social__link" aria-label="Discord">
-        <i class="fab fa-discord"></i>
       </a>
     </li>
   {%- endif -%}

@@ -16,6 +16,7 @@
 }
 
 .list-social__link {
+  font-size: 1.5em;
   align-items: center;
   display: flex;
   padding: 1.1rem;
