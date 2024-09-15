@@ -49,13 +49,13 @@
           "settings": {
             "layout": "vertical",
             "icon_1": "serving_dish",
-            "image_1": "shopify:\/\/shop_images\/logo_ff888ac5-96a4-4789-bf7d-dd12c4ec3561.png",
+            "image_1": "shopify:\/\/shop_images\/qmk-logo.png",
             "heading_1": "QMK Compatible",
             "icon_2": "return",
-            "image_2": "shopify:\/\/shop_images\/Absurd_Store_3.png",
+            "image_2": "shopify:\/\/shop_images\/gateron-red.png",
             "heading_2": "Hotswappable Switches",
             "icon_3": "truck",
-            "image_3": "shopify:\/\/shop_images\/Absurd_Store_d86c1f0b-3978-445a-a4c2-be4ed0428018.png",
+            "image_3": "shopify:\/\/shop_images\/type-c.png",
             "heading_3": "USB-C"
           }
         },
@@ -73,7 +73,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_shape": "circle"
+            "swatch_shape": "square"
           }
         },
         "quantity_selector": {
@@ -84,8 +84,15 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
+            "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "text_yRdjgP": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>This will ship out on the 20th of October!<\/strong>",
+            "text_style": "uppercase"
           }
         }
       },
@@ -98,7 +105,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "text_yRdjgP"
       ],
       "settings": {
         "enable_sticky_info": true,

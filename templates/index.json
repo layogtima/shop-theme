@@ -39,66 +39,6 @@
         "padding_bottom": 60
       }
     },
-    "multicolumn_MYwcrQ": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_dA44Xz": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/customize.png",
-            "title": "Customization and Flexibility",
-            "text": "<p>Feel free to modify and tailor products to your specific needs<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_pH7dLe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/community.png",
-            "title": "Community and Collaboration",
-            "text": "<p>You can learn from designs and collaborate on improvements <\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KTmaEX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Absurd_Store.png",
-            "title": "Repairs and Upgrades",
-            "text": "<p>Products are repairable, upgradable and tradeable; fewer end up in landfills!<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_dA44Xz",
-        "column_pH7dLe",
-        "column_KTmaEX"
-      ],
-      "custom_css": [
-        ".title-wrapper-with-link {display: block; text-align: center;}",
-        "@media only screen and (max-width: 749px) {h2 {font-size: 2em; }}"
-      ],
-      "settings": {
-        "title": "Why open-source products?",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-8ff17eb0-0001-44c2-a079-5818e32458c9",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 48,
-        "padding_bottom": 48
-      }
-    },
     "rich_text_RwejTA": {
       "type": "rich-text",
       "blocks": {
@@ -194,12 +134,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_MYwcrQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dA44Xz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customize.png",
+            "title": "Customization and Flexibility",
+            "text": "<p>Feel free to modify and tailor products to your specific needs<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pH7dLe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/community.png",
+            "title": "Community and Collaboration",
+            "text": "<p>You can learn from designs and collaborate on improvements <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KTmaEX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/right-to-repair.png",
+            "title": "Repairs and Upgrades",
+            "text": "<p>Products are repairable, upgradable and tradeable; fewer end up in landfills!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dA44Xz",
+        "column_pH7dLe",
+        "column_KTmaEX"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: block; text-align: center;}",
+        "@media only screen and (max-width: 749px) {h2 {font-size: 2em; }}"
+      ],
+      "settings": {
+        "title": "Why open-source products?",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8ff17eb0-0001-44c2-a079-5818e32458c9",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
     "rich_text_WH89BT",
-    "multicolumn_MYwcrQ",
     "rich_text_RwejTA",
-    "featured_product_43Ngga"
+    "featured_product_43Ngga",
+    "multicolumn_MYwcrQ"
   ]
 }
