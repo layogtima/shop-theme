@@ -1,0 +1,205 @@
+{
+  "sections": {
+    "rich_text_WH89BT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_y7YMXV": {
+          "type": "heading",
+          "settings": {
+            "heading": "We sell handcrafted open-source products for makers, innovators, and open-source enthusiasts!",
+            "heading_size": "h1"
+          }
+        },
+        "button_PQRCce": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_y7YMXV",
+        "button_PQRCce"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {h2 {font-size: 1.8em; }}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-e65fddb3-5f90-488d-8baa-430ab5d94637",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 60
+      }
+    },
+    "multicolumn_MYwcrQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_dA44Xz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/customize.png",
+            "title": "Customization and Flexibility",
+            "text": "<p>Feel free to modify and tailor products to your specific needs<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pH7dLe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/community.png",
+            "title": "Community and Collaboration",
+            "text": "<p>You can learn from designs and collaborate on improvements <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KTmaEX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Absurd_Store.png",
+            "title": "Repairs and Upgrades",
+            "text": "<p>Products are repairable, upgradable and tradeable; fewer end up in landfills!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_dA44Xz",
+        "column_pH7dLe",
+        "column_KTmaEX"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link {display: block; text-align: center;}",
+        "@media only screen and (max-width: 749px) {h2 {font-size: 2em; }}"
+      ],
+      "settings": {
+        "title": "Why open-source products?",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8ff17eb0-0001-44c2-a079-5818e32458c9",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "rich_text_RwejTA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UUWYe7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hot off the workbench!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UUWYe7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "featured_product_43Ngga": {
+      "type": "featured-product",
+      "blocks": {
+        "text_P9RNVV": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_cgfPkC": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_zgFM7Q": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_UNtVtd": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_gdTA3R": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons_GrkUfx": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_XcyAJy": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_P9RNVV",
+        "title_cgfPkC",
+        "price_zgFM7Q",
+        "variant_picker_UNtVtd",
+        "quantity_selector_gdTA3R",
+        "buy_buttons_GrkUfx",
+        "share_XcyAJy"
+      ],
+      "settings": {
+        "product": "cory-dora",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_WH89BT",
+    "multicolumn_MYwcrQ",
+    "rich_text_RwejTA",
+    "featured_product_43Ngga"
+  ]
+}
