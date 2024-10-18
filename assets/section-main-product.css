@@ -365,6 +365,16 @@ a.product__text {
 
 .product-form__buttons {
   max-width: 44rem;
+  text-transform: uppercase;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .product--no-media .product__info-container > modal-opener {
