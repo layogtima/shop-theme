@@ -2456,7 +2456,12 @@ input[type='checkbox'] {
 
 .header__heading-logo {
   height: auto;
-  max-width: 100%;
+  max-width: 40px;
+  scale: 4.9;
+  transform: rotate(-26.66deg);
+  position: relative;
+  top: 4rem;
+  left: 2em;
 }
 
 .header__heading-logo-wrapper {
@@ -2469,6 +2474,11 @@ input[type='checkbox'] {
   .header__heading,
   .header__heading-link {
     text-align: center;
+  }
+
+  .header__heading-logo {
+    max-width: 20px;
+    top: 2rem;
   }
 
   .header--mobile-left .header__heading,
@@ -2787,7 +2797,7 @@ details[open] > .header__submenu {
   }
 
   .header--middle-left .header__inline-menu {
-    margin-left: 0;
+    margin-left: 5em;
   }
 }
 
