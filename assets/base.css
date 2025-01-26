@@ -2479,6 +2479,8 @@ input[type='checkbox'] {
   .header__heading-logo {
     max-width: 20px;
     top: 2rem;
+    left: 0;
+    transform: none;
   }
 
   .header--mobile-left .header__heading,
