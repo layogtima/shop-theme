@@ -1,0 +1,245 @@
+{
+  "sections": {
+    "rich_text_mb3gRd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CWEnRn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bite-sized fidget fun, served fresh!",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CWEnRn"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "custom_liquid_KUbL6R": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% comment %}\n  Display Kitestring's logo on the product page using an uploaded file from Shopify's files.\n{% endcomment %}\n\n<div class=\"maker-logo\">\n  <a href=\"https:\/\/x.com\/shreshthmohan\" target=\"_blank\"><img src=\"{{ 'kitestring-logo.png' | file_url }}\" alt=\"Kitestring Logo\" style=\"max-width: 50px;\" \/><\/a>\n<\/div>\n\n<style>\n  .maker-logo {\n    margin: 0 0 -15px;\n  }\n<\/style>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_PHgNfN": {
+          "type": "text",
+          "settings": {
+            "text": "Deliciously addictive collection of mechanical fidget clickers!",
+            "text_style": "subtitle"
+          }
+        },
+        "icon_with_text_4MaKdn": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "vertical",
+            "icon_1": "heart",
+            "heading_1": "Made in Bengaluru",
+            "icon_2": "return",
+            "image_2": "shopify:\/\/shop_images\/gateron-red.png",
+            "heading_2": "Hotswappable Switches",
+            "icon_3": "fire",
+            "heading_3": "Addicitive"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "text_yRdjgP": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<strong>This will ship out on the 20th of October!<\/strong>",
+            "text_style": "uppercase"
+          }
+        }
+      },
+      "block_order": [
+        "custom_liquid_KUbL6R",
+        "title",
+        "text_PHgNfN",
+        "icon_with_text_4MaKdn",
+        "description",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "text_yRdjgP"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-e65fddb3-5f90-488d-8baa-430ab5d94637",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 24,
+        "padding_bottom": 80
+      }
+    },
+    "collapsible_content_48mERV": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_XGLEF6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's inside the clickers?",
+            "icon": "none",
+            "row_content": "<p>We use functional mechanical key switches (Otemu Jerrys) for the clickers!<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Dp6VzJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I swap the switches?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! The clickers feature hotswappable sockets, so you can easily change switches.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PQyEUW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I find the design files for the clickers?",
+            "icon": "none",
+            "row_content": "<p>Head over to the <a href=\"https:\/\/www.thingiverse.com\/thing:6928032\" target=\"_blank\" title=\"https:\/\/www.thingiverse.com\/thing:6928032\">Thingiverse<\/a> for the latest updates, and to submit bug reports\/fixes.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_XGLEF6",
+        "collapsible_row_Dp6VzJ",
+        "collapsible_row_PQyEUW"
+      ],
+      "settings": {
+        "caption": "Lost? Read these!",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 60,
+        "padding_bottom": 48
+      }
+    },
+    "rich_text_N7CFnt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qdnC8a": {
+          "type": "heading",
+          "settings": {
+            "heading": "Community",
+            "heading_size": "h2"
+          }
+        },
+        "text_VhVwxY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join a thriving community of enthusiasts. Share your setups, ask questions, or even contribute to the Cory Dora's devlopment. Got a hack? We'd love to see it!<\/p>"
+          }
+        },
+        "button_t9ehWH": {
+          "type": "button",
+          "settings": {
+            "button_label": "JOIN DISCORD COMMUNITY!",
+            "button_link": "https:\/\/discord.gg\/fyrbTNuZJd",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qdnC8a",
+        "text_VhVwxY",
+        "button_t9ehWH"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "rich_text_mb3gRd",
+    "main",
+    "related-products",
+    "collapsible_content_48mERV",
+    "rich_text_N7CFnt"
+  ]
+}
